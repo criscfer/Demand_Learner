@@ -21,7 +21,7 @@ Some sample graphs from each model:
 
 ![](https://github.com/criscfer/Demand_Learner/blob/main/Sample%20Result%20Images/Holt-Winter's_model_Testing_set%20-%20With%20dates.png)
 
-## Observations:
+## Observations
 
 It is important to note that the recurrent neural network (LSTM) shows the most diiscrepancy between predictions and ground truth data, because of hardware and time constraints it suffered during training. The training stage for the LSTM model can take up to several hours, depending on the quality of the hardware available. For a simple 
 test run of the model, training was done with a small input batch and for a small number of epochs (only 10 epochs). Therefore, the RNN's performance can be greatly improved, should better hardware be available for training it.
